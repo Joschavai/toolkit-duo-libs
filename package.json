@@ -1,0 +1,22 @@
+{
+  "name": "@joschavai/toolkit-duo-libs",
+  "version": "1.0.0",
+  "description": "Monorepo Yarn con format-utils e validate-utils",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "yarn workspace @joschavai/format-utils test && yarn workspace @joschavai/validate-utils test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joschavai/toolkit-duo-libs.git"
+  },
+  "author": "joschavai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joschavai/toolkit-duo-libs/issues"
+  },
+  "homepage": "https://github.com/Joschavai/toolkit-duo-libs#readme"
+}

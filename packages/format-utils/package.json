@@ -1,0 +1,25 @@
+{
+  "name": "@joschavai/format-utils",
+  "version": "1.0.0",
+  "description": "Simple formatting utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joschavai/toolkit-duo-libs.git",
+    "directory": "packages/format-utils"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "joschavai",
+  "license": "ISC",
+  "type": "module",
+  "types": "index.d.ts",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "lodash": "^4.17.21"
+  }
+}
